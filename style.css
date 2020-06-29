@@ -1,0 +1,71 @@
+body{
+    background-color:black;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    margin: 5px auto;
+    text-align: center;
+}
+
+.tooltip{ 
+    display: block;
+    text-align: center;
+    margin: 0 0 80px 0;
+}
+
+.tooltip .tooltiptext{
+    visibility: hidden;
+    border-radius: 3px;
+    width: 40%;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+
+}
+
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+    right: 28.5%;
+    margin: 20px ;
+}
+
+.tooltip:hover{
+    cursor: pointer;
+}
+
+.para{
+    width: 60%;
+    margin: 5px auto;
+}
+
+.forms{
+    width: 500px;
+    margin: 10px auto;
+}
+
+.name, .mail, .age, label{
+    margin: 10px 0;
+    margin-right: 0;
+    padding: 10px 5px;
+    text-align: left;
+}
+
+.name input{
+    border: 3px solid lightblue;
+    width: 98%;
+}
+
+.email input{
+    border: 3px solid green;
+    width: 98%;
+    
+}
+
+ .age input{
+     border-top: 3px solid orange;
+     width: 50%;
+ }
+
+
